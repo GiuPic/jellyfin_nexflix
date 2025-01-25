@@ -1,0 +1,29 @@
+@import url("https://cdn.jsdelivr.net/gh/DevilsDesigns/Jellyfin-DarkFlix-Theme/Darkflix-v5.1.css");
+
+
+
+.splashLogo {
+    background-image: url('https://raw.githubusercontent.com/GiuPic/jellyfin_nexflix/refs/heads/main/Netflix_Logo_RGB.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 30% !important;
+    height: 30% !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    animation: fadein .5s !important;  /* Mantieni l'animazione */
+}
+
+@media screen and (min-device-width: 992px) {
+    .splashLogo {
+        background-image: url('https://raw.githubusercontent.com/GiuPic/jellyfin_nexflix/refs/heads/main/Netflix_Logo_RGB.png') !important;
+    }
+}
+
+
+
+.pageTitleWithDefaultLogo {
+    background-image: url(https://raw.githubusercontent.com/GiuPic/jellyfin_nexflix/refs/heads/main/Netflix_Logo_RGB.png);
+}
